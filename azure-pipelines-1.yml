@@ -28,6 +28,6 @@ steps:
     showNegligible: false
     windowsScannerVersion: '6.5.0'
     scanner: 'registry.aquasec.com/scanner:2022.4'
-    runOptions: '-e AQUA-TOKEN 7bf6d0392fcfb6cea1ca5364a65583d556ab92a3'
+    runOptions: '-e AQUA-TOKEN=7bf6d0392fcfb6cea1ca5364a65583d556ab92a3'
     connection: 'aqua'
     customFlags: '--direct-cc'
